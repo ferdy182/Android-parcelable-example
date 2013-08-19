@@ -1,4 +1,10 @@
 Android-parcelable-example
 ==========================
 
-Example about how to use parcelables on Android
+Ejemplo de cómo usar parcelables en Android
+
+La clase importante es Estudiante.java para ver como se implementa un parcelable. 
+
+En el ejemplo, una actividad crea un objeto Estudiante que implementa la interfaz parecelable y se lo pasa a otra actividad a través de los extras del intent. Luego en la segunda actividad, éste se recupera y se muestra por pantalla y por LogCat.
+
+
